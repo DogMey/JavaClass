@@ -10,7 +10,7 @@ public class NumeroMenor10 {
 
         int cantidad = returnInt("Ingrese la cantidad de números a evaluar");
         int menor = Integer.MAX_VALUE;
-        int entrada = 0;
+        int entrada;
         for (int i = 1; i <= cantidad; i++) {
             entrada = returnInt("Ingresa el valor " + (i+1));
             menor = Math.min(menor, entrada);
